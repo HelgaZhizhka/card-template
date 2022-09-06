@@ -1,0 +1,14 @@
+.avatar {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.avatar_sm {
+    width: 36px;
+    height: 36px;
+}

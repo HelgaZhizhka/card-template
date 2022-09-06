@@ -1,0 +1,11 @@
+.page {
+    min-height: 100vh;
+    padding: 50px 0;
+    &__container {
+        padding: 20px 5px;
+        background-color: var(--color-light);
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}

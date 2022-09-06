@@ -1,0 +1,7 @@
+.navbar {
+    padding: 5px;
+    background-color: var(--color-dark);
+    &.is-fixed {
+        bottom: 0;
+    }
+}

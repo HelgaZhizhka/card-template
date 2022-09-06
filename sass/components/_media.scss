@@ -1,0 +1,7 @@
+.media {
+    display: flex;
+    align-items: center;
+    &__body {
+        flex: 1
+    }
+}

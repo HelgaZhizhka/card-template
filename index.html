@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Scss BEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main class="page">
+        <div class="header is-fixed">
+            <div class="media">
+                <div class="media__image">
+                    <img class="avatar avatar_sm" src="/images/user.png" alt=""/>
+                </div>
+                <div class="media__body">
+                    <h1 class="header__title">John Doe</h1>
+                </div>
+            </div>
+        </div>
+        <div class="page__container">
+            <div class="card">
+                <h2 class="card__title">Will Wright</h2>
+                <div class="card__image">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+                <p class="card__description">Check out my picture</p>
+                <div class="card__action">
+                    <input type="text" class="card__input input" placeholder="Comment here">
+                    <button class="card__button button button_sm button_primary">Send</button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Will Wright</h2>
+                <div class="card__image">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+                <p class="card__description">Check out my picture</p>
+                <div class="card__action">
+                    <input type="text" class="card__input input" placeholder="Comment here">
+                    <button class="card__button button button_sm button_primary">Send</button>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="card__title">Will Wright</h2>
+                <div class="card__image">
+                    <img src="./images/img1.jpg" alt="">
+                </div>
+                <p class="card__description">Check out my picture</p>
+                <div class="card__action">
+                    <input type="text" class="card__input input" placeholder="Comment here">
+                    <button class="card__button button button_sm button_primary">Send</button>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar is-fixed">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="" class="menu__link">
+                        <span class="menu__icon">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.73673 1.28213C8.78819 0.518197 10.212 0.518198 11.2634 1.28213L17.565 5.86049C18.6165 6.62442 19.0565 7.97853 18.6548 9.21459L16.2478 16.6225C15.8462 17.8586 14.6944 18.6955 13.3947 18.6955H5.6055C4.30582 18.6955 3.15395 17.8586 2.75233 16.6225L0.345343 9.21459C-0.0562797 7.97852 0.383695 6.62442 1.43516 5.86049L7.73673 1.28213Z"
+                                    fill="var(--color-accent)" />
+                            </svg>
+                        </span>
+                        Home
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">
+                        <span class="menu__icon">
+                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4" y="2.83496" width="14" height="15" rx="4" fill="var(--color-accent)" />
+                            </svg>
+                        </span>
+                        Chat
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link">
+                        <span class="menu__icon">
+                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.40197 1.5C5.55667 -0.500004 8.44341 -0.5 9.59812 1.5L13.3523 8.0025C14.507 10.0025 13.0637 12.5025 10.7543 12.5025H3.24581C0.936414 12.5025 -0.506958 10.0025 0.647742 8.0025L4.40197 1.5Z"
+                                    fill="var(--color-accent)" />
+                            </svg>
+                        </span>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>

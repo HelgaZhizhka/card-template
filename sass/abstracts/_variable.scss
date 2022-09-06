@@ -1,0 +1,31 @@
+$grid__bp-xs: 428;
+$grid__bp-sm: 576;
+$grid__bp-md: 768;
+$grid__bp-lg: 992;
+$grid__bp-xl: 1200;
+$grid__bp-xxl: 1440;
+
+$grid__cols: 12;
+
+$gutter: 30;
+
+
+$container-width-xl: 1160;
+$container-width-xxl: 1240;
+
+$map-grid-props: (
+    '': 0,
+    '_xs': $grid__bp-xs,
+    '_sm': $grid__bp-sm,
+    '_md': $grid__bp-md,
+    '_lg': $grid__bp-lg,
+    '_xl': $grid__bp-xl,
+    '_xxl': $grid__bp-xxl
+);
+:root {
+    --color-base: #7D2BBE;
+    --color-accent: #CC90FB;
+    --color-light: #F7EFFE;
+    --color-white: #fff;
+    --color-dark: #401761;
+}

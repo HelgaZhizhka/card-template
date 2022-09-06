@@ -1,0 +1,41 @@
+.button {
+    padding: 0;
+    display: inline-block;
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	vertical-align: top;
+	touch-action: manipulation;
+	white-space: nowrap;
+	appearance: none;
+	user-select: none;
+	text-decoration: none;
+    font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
+    font-weight: 400;
+    text-align: center;
+    transition: all .25s ease-out;
+}
+.button:focus {
+    outline: 0
+}
+.button:hover {
+    cursor: pointer;
+}
+.button_sm {
+    padding: 0 8px;
+    height: 24px;
+    line-height: 22px;
+    font-size: .875rem;
+}
+.button_primary {
+    background-color: var(--color-base);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: var(--color-white)
+}
+.button_primary:hover {
+    color: var(--color-base);
+    border-color: var(--color-base);
+    background: transparent;
+}

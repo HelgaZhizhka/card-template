@@ -1,0 +1,32 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    &__item {
+        text-align: center;
+    }
+    &__link, &__icon {
+        display: block;
+    }
+    &__link {
+        font-size: .75rem;
+        color: var(--color-white);
+        text-decoration: none;
+        transition: opacity .25s ease-out;
+        &:hover {
+            opacity: .56;
+        }
+    }
+    &__icon {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin: 0 auto 5px;
+        svg {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+    }
+}
